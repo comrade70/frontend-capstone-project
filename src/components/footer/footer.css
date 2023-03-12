@@ -1,0 +1,34 @@
+.footer-section1 {
+    grid-area: section1; 
+    margin: auto;
+    justify-self: center; 
+}
+.footer-section2 { grid-area: section2; }
+.footer-section3 { grid-area: section3; }
+.footer-section4 { grid-area: section4; }
+
+.footer{
+    color: #ffffff;
+    background-color: #495E57;
+    padding: 3rem;
+}
+
+.footer-grid {
+    width: 858px;
+    margin: auto;
+    display: grid;
+    align-items:flex-start;
+    grid-template-areas:
+        'section1 section2 section3 section4';
+    justify-content: space-between;
+}
+
+.footer img{
+    width: 200px;
+    height: auto;
+    background-color: #ffffff;
+}
+
+.footer-link li{
+    padding: 0.3rem;
+}

@@ -1,0 +1,38 @@
+.about{
+    background-color: #ffffff;
+}
+
+.about .content{
+    display: grid;
+    max-width: 858px;
+    height: 406px;
+    margin: auto;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about .card{
+    width: 422px;
+}
+
+.about .card .title{
+    color: #333;
+}
+
+.about .card span{
+    font-size: 20px;
+    color: #333
+}
+
+
+.about .card p{
+    padding-top: 1rem;
+    text-align: justify;
+}
+
+.about-img{
+    width: 375px;
+    height: 325px;
+}

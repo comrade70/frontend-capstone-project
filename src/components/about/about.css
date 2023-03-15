@@ -1,20 +1,16 @@
 .about{
     background-color: #ffffff;
+    padding: 4rem;
 }
 
 .about .content{
     display: grid;
     max-width: 858px;
-    height: 406px;
     margin: auto;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 2fr 1fr;
     gap: 4rem;
     align-items: center;
-    justify-content: space-between;
-}
-
-.about .card{
-    width: 422px;
+    justify-items: end;
 }
 
 .about .card .title{
@@ -33,6 +29,13 @@
 }
 
 .about-img{
-    width: 375px;
-    height: 325px;
+    width: 275px;
+    height: 225px;
+}
+
+@media screen and (max-width: 768px){
+    .about .content{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    }
 }

@@ -9,19 +9,55 @@
 }
 
 .navbar .container{
-    width: 858px;
+    max-width: 858px;
     height: 100%;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
     margin: auto;
 }
 
-.nav-menu{
+.navbar .nav-menu{
     list-style: none;
     display: flex;
 }
 
 .nav-menu li{
     padding-left: 2rem;
+}
+
+.hamburger{
+    display: none;
+}
+
+@media screen and (max-width: 768px){
+    .hamburger{
+        display: block;
+    }
+
+    .navbar .icon{
+        font-size: 1.5rem;
+    }
+
+    .navbar .nav-menu{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        top: 90px;
+        right: 100%;
+        height: 100%;
+        width: 100%;
+        background: #ffffff;
+        transition: 0.4s ease-in-out;
+        z-index: 10;
+    }
+
+    .navbar .active{
+        left: 0;
+    }
+
+    .navbar .nav-menu li a {
+        font-size: 2rem;
+    }
 }

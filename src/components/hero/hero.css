@@ -1,21 +1,17 @@
 .hero{
     background-color: #495E57;
     color: #fff;
+    padding: 4rem;
 }
 
 .hero .content{
-    display:grid;
+    display: grid;
+    max-width: 858px;
+    margin: auto;
     grid-template-columns: repeat(2, 1fr);
     gap: 4rem;
-    height: 406px;
-    max-width: 858px;
     align-items: center;
-    margin: auto;
-}
-
-
-.card{
-    width: 422px;
+    justify-items: end;
 }
 
 .card .title{
@@ -34,7 +30,14 @@
 }
 
 .hero-img{
-    width: 375px;
-    height: 325px;
+    width: 275px;
+    height: 225px;
+}
+
+@media (max-width: 768px){
+    .hero .content{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    }
 }
 

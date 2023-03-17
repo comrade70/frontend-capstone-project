@@ -1,12 +1,11 @@
 .menu{
     align-items: center;
+    padding: 4rem 2rem;
 }
 
 .menu .content{
     max-width: 858px;
     justify-content: space-between;
-    padding-top: 4rem;
-    padding-bottom: 4rem;
     margin: auto;
 }
 

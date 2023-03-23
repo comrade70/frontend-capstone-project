@@ -12,7 +12,7 @@ const TableBookingForm = () => {
     date: '',
     time: '',
     occasion: '',
-    numberOfPeople: ''
+    numberOfGuests: ''
   };
 
   const validationSchema = Yup.object().shape({
@@ -22,7 +22,7 @@ const TableBookingForm = () => {
     date: Yup.date().required('Date is required'),
     time: Yup.string().required('Time is required'),
     occasion: Yup.string().required('Occasion is required'),
-    numberOfPeople: Yup.number().required('Number of people is required')
+    numberOfGuests: Yup.number().required('Number of people is required')
       .min(1, 'The minimum number of people is 1')
       .max(4, 'The minimum number of people is 4')
   });

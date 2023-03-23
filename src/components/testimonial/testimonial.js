@@ -13,36 +13,36 @@ function Testimonial() {
             <p>Rating</p>
             <div className="testimonial-img">
               <img src={userOne} alt="" />
-              <h5>AdeRopo</h5>
+              <h5>Silvannus</h5>
             </div>
-            <p>Review Text</p>
+            <p>The ordering and delivery processes are smooth</p>
           </div>
 
           <div className="customer">
             <p>Rating</p>
             <div className="testimonial-img">
               <img src="" alt="" />
-              <h5>AdeRopo</h5>
+              <h5>Karen</h5>
             </div>
-            <p>Review Text</p>
+            <p>Nice products!</p>
           </div>
 
           <div className="customer">
             <p>Rating</p>
             <div className="testimonial-img">
               <img src="" alt="" />
-              <h5>AdeRopo</h5>
+              <h5>Johanne</h5>
             </div>
-            <p>Review Text</p>
+            <p>My children have made the greek salad a staple food</p>
           </div>
 
           <div className="customer">
             <p>Rating</p>
             <div className="testimonial-img">
               <img src="" alt="" />
-              <h5>AdeRopo</h5>
+              <h5>Smith</h5>
             </div>
-            <p>Review Text</p>
+            <p>I enjoy LittLemon's meals</p>
           </div>
         </div>
       </div>

@@ -13,3 +13,5 @@ Do this by running the commannd `cd my-app` in the terminal. Ensure to use the n
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+### Note that only the Home and Reservation Nav Links are enabled for now

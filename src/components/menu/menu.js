@@ -14,6 +14,7 @@ const Menu = () => {
         "Greek salad so creamy and nutritious. Perfectly blended for your consumption",
       price: "$10.55",
       img: greekSalad,
+      callToAction: "Order delivery",
     },
     {
       title: "Bruchetta",
@@ -21,6 +22,7 @@ const Menu = () => {
         "Bruschetta is an antipasto from italy consisting of grilled bread rubbed with garlic and topped with olive oil oil and salt",
       price: "$6.91",
       img: bruchetta,
+      callToAction: "Order delivery",
     },
     {
       title: "Lemon Dessert",
@@ -28,6 +30,7 @@ const Menu = () => {
         "Treats like lemon cheesecake and lemon pound cake to mouth in your lemon curd.",
       price: "$7",
       img: lemonDessert,
+      callToAction: "Order delivery",
     },
   ];
   return (

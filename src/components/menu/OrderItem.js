@@ -1,6 +1,6 @@
 import React from "react";
 
-const OrderItem = ({ img, title, price, description }) => {
+const OrderItem = ({ img, title, price, description, callToAction }) => {
   return (
     <li className="card">
       <img src={img} alt={title} />
@@ -9,7 +9,7 @@ const OrderItem = ({ img, title, price, description }) => {
         <p>{price}</p>
       </div>
       <p>{description}</p>
-      <h5>Order a delivery</h5>
+      <h5>{callToAction}</h5>
     </li>
   );
 };

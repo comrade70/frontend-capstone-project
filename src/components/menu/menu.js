@@ -37,7 +37,7 @@ const Menu = () => {
     <div className="menu">
       <div className="content">
         <div className="title">
-          <h2>Specials</h2>
+          <h2>This week's specials!</h2>
           <button className='submit' type ="submit" >Online Menu</button>
         </div>
         <ul className="card-grid">

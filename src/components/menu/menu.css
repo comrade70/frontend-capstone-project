@@ -42,6 +42,10 @@
     padding: 1rem 1rem 1rem 1rem;
 }
 
+#price{
+    color: red;
+}
+
 .menu .card img{
     width: 100%;
     height: 185.26px;

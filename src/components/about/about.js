@@ -7,8 +7,9 @@ function About() {
     <div className='about'>
       <div className="content">
         <div className='card'>
-          <h1 className='title'>Little Lemon<br></br><span>Chicago</span></h1>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio quidem aliquid rem tempora repellat hic laboriosam dolor saepe vel.</p>
+          <h1 className='title'>Little Lemon</h1>
+          <span>Chicago</span>
+          <p id="companyInfo">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio quidem aliquid rem tempora repellat hic laboriosam dolor saepe vel.</p>
         </div>
         <img className='about-img' src={restaurantFood} alt="restaurant-food-img" />
       </div>

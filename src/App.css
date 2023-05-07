@@ -15,14 +15,23 @@ body{
   font-size: 20px;
 }
 
+h1{
+  letter-spacing: 0.3rem;
+}
+
+span{
+  letter-spacing: 0.3rem;
+}
+
 .container{
   max-width:1440px;
 }
 
 button{
-  padding: 10px 20px 10px 20px;
+  padding: 10px 10px 10px 10px;
   background: #F4CE14;
-  border: 0px;
+  border: none;
+  border-radius: 10%;
 }
 
 button:active{
@@ -32,6 +41,11 @@ button:active{
 
 a{
   color: #333;
+}
+
+a:hover{
+  color:#ffffff;
+  background: #495E57;
 }
 
 li{

@@ -6,7 +6,7 @@ const OrderItem = ({ img, title, price, description, callToAction }) => {
       <img src={img} alt={title} />
       <div className="titleAndPrice">
         <h5>{title}</h5>
-        <p>{price}</p>
+        <p id ='price'>{price}</p>
       </div>
       <p>{description}</p>
       <h5>{callToAction}</h5>

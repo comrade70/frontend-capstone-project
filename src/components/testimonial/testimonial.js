@@ -1,5 +1,7 @@
 import React from "react"
-import userOne from '../../assets/Mario and Adrian A.jpg'
+import userOne from '../../assets/userOne.png'
+import userTwo from '../../assets/userTwo.png'
+import userThree from '../../assets/userThree.png'
 import '../../App.css';
 import './testimonial.css'
 
@@ -12,7 +14,7 @@ function Testimonial() {
           <div className="customer">
             <p>Rating</p>
             <div className="testimonial-img">
-              <img src={userOne} alt="" />
+              <img src={userOne} alt="userOne" />
               <h5>Silvannus</h5>
             </div>
             <p>The ordering and delivery processes are smooth</p>
@@ -21,7 +23,7 @@ function Testimonial() {
           <div className="customer">
             <p>Rating</p>
             <div className="testimonial-img">
-              <img src="" alt="" />
+              <img src={userThree} alt="userThree" />
               <h5>Karen</h5>
             </div>
             <p>Nice products!</p>
@@ -30,7 +32,7 @@ function Testimonial() {
           <div className="customer">
             <p>Rating</p>
             <div className="testimonial-img">
-              <img src="" alt="" />
+              <img src={userTwo} alt="userTwo" />
               <h5>Johanne</h5>
             </div>
             <p>My children have made the greek salad a staple food</p>
@@ -39,7 +41,7 @@ function Testimonial() {
           <div className="customer">
             <p>Rating</p>
             <div className="testimonial-img">
-              <img src="" alt="" />
+              <img src={userOne} alt="userOne" />
               <h5>Smith</h5>
             </div>
             <p>I enjoy LittLemon's meals</p>

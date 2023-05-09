@@ -1,7 +1,7 @@
 import React from "react"
-import userOne from '../../assets/userOne.png'
-import userTwo from '../../assets/userTwo.png'
-import userThree from '../../assets/userThree.png'
+import imgOne from '../../assets/userOne.png'
+import imgTwo from '../../assets/userTwo.png'
+import imgThree from '../../assets/userThree.png'
 import '../../App.css';
 import './testimonial.css'
 
@@ -14,7 +14,7 @@ function Testimonial() {
           <div className="customer">
             <p>Rating</p>
             <div className="testimonial-img">
-              <img src={userOne} alt="userOne" />
+              <img src={imgOne} alt="userOne" />
               <h5>Silvannus</h5>
             </div>
             <p>The ordering and delivery processes are smooth</p>
@@ -23,7 +23,7 @@ function Testimonial() {
           <div className="customer">
             <p>Rating</p>
             <div className="testimonial-img">
-              <img src={userThree} alt="userThree" />
+              <img src={imgThree} alt="userThree" />
               <h5>Karen</h5>
             </div>
             <p>Nice products!</p>
@@ -32,7 +32,7 @@ function Testimonial() {
           <div className="customer">
             <p>Rating</p>
             <div className="testimonial-img">
-              <img src={userTwo} alt="userTwo" />
+              <img src={imgTwo} alt="userTwo" />
               <h5>Johanne</h5>
             </div>
             <p>My children have made the greek salad a staple food</p>
@@ -41,7 +41,7 @@ function Testimonial() {
           <div className="customer">
             <p>Rating</p>
             <div className="testimonial-img">
-              <img src={userOne} alt="userOne" />
+              <img src={imgOne} alt="userOne" />
               <h5>Smith</h5>
             </div>
             <p>I enjoy LittLemon's meals</p>

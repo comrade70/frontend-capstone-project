@@ -1,7 +1,7 @@
 import React from "react"
-import imgOne from '../../assets/userOne.png'
-import imgTwo from '../../assets/userTwo.png'
-import imgThree from '../../assets/userThree.png'
+import imgOne from '../../assets/userOne.jpg'
+import imgTwo from '../../assets/userTwo.jpg'
+import imgThree from '../../assets/userThree.jpg'
 import '../../App.css';
 import './testimonial.css'
 

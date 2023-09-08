@@ -1,9 +1,9 @@
-import React from "react"
-import imgOne from '../../assets/userOne.jpg'
-import imgTwo from '../../assets/userTwo.jpg'
-import imgThree from '../../assets/userThree.jpg'
+import React from "react";
+import imgOne from '../../assets/userOne.jpg';
+import imgTwo from '../../assets/userTwo.jpg';
+import imgThree from '../../assets/userThree.jpg';
 import '../../App.css';
-import './testimonial.css'
+import './testimonial.css';
 
 function Testimonial() {
   return (

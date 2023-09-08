@@ -1,5 +1,5 @@
 import React from 'react';
-import restaurantFood from '../../assets/restauranfood.jpg'
+import restaurantFood from '../../assets/restauranfood.jpg';
 import './hero.css';
 
 function Hero() {

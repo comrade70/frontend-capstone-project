@@ -2,7 +2,9 @@ import React, { useState } from 'react';
 import { Formik, Form, Field, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
 
+import Occasions from '../../components/constant/constant';
 import './bookingForm.css'
+
 
 const TableBookingForm = () => {
   const [time, setTime] = useState('');
@@ -30,6 +32,20 @@ const TableBookingForm = () => {
 
   const onSubmit = (values) => {
     // submit form data here
+    fetch("#toBeInputedLater", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(values),
+    }).then((res) => {
+      Formik.resetForm();
+      Formik.setSubmitting(false);
+      alert("Booking Successful");
+    }).catch((err) => {
+      Formik.setSubmitting(false);
+      alert("Booking Failed");
+    });
   }
 
   return (
@@ -67,9 +83,18 @@ const TableBookingForm = () => {
             <ErrorMessage name="time" />
           </div>
           <div>
-            <label>Occasion:</label>
-            <Field name="occasion" type="text" />
-            <ErrorMessage name="occasion" />
+            <label htmlFor='occasion'>Occasion</label>
+          <select
+            name="occasion"
+            id="occasion"
+          >
+            {Occasions.map((occasion) => (
+              <option key={occasion.value} value={occasion.value}>
+                {occasion.label}
+              </option>
+            ))}
+          </select>
+
           </div>
           <div>
             <label>Number of Guests:</label>

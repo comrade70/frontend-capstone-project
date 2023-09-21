@@ -1,4 +1,4 @@
-# This is my Frontend Capstone Project
+# This is a Frontend Capstone Project
 A react table booking/reservation app
 
 ## Install Dependencies

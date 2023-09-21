@@ -1,5 +1,5 @@
 import React from "react";
-import imgOne from '../../assets/userOne.jpg';
+// import imgOne from '../../assets/userOne.jpg';
 import imgTwo from '../../assets/userTwo.jpg';
 import imgThree from '../../assets/userThree.jpg';
 import '../../App.css';
@@ -14,7 +14,7 @@ function Testimonial() {
           <div className="customer">
             <p>Rating</p>
             <div className="testimonial-img">
-              <img src={imgOne} alt="userOne" />
+              <img src={imgTwo} alt="userTwo" />
               <h5>Silvannus</h5>
             </div>
             <p>The ordering and delivery processes are smooth</p>
@@ -41,7 +41,7 @@ function Testimonial() {
           <div className="customer">
             <p>Rating</p>
             <div className="testimonial-img">
-              <img src={imgOne} alt="userOne" />
+              <img src={imgThree} alt="userThree" />
               <h5>Smith</h5>
             </div>
             <p>I enjoy LittLemon's meals</p>
